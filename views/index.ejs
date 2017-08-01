@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>すけべとらっぷだんじょん</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>すけべとらっぷだんじょん</h1>
+    <div class="status">
+      <br>
+      <%- include(_status, {status: status}) %>
+    <br>
+    </div>
+    <br>
+    <div class="msglog">
+      <br>
+      <%- msglog %>
+    <br>
+    <br>
+    </div>
+    <br>
+    <div class="interface">
+      <br>
+      <%- include(interface)  %>
+    <br>
+    </div>
+    <br>
+  </body>
+</html>

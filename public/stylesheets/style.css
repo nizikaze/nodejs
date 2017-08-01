@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+a {
+  color: #00B7FF;
+}
+h1{
+  color: #DF0101;
+  background-color: #F5F6CE;
+}
+
+.status{
+  background-color: #F5A9F2;
+}
+.msglog{
+  background-color: #E6E6E6;
+}
+.interface{
+  background-color: #A9F5A9;
+}
